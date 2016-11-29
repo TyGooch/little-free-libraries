@@ -1,0 +1,40 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  background-color: rgb(105, 105, 105);
+}
+
+.app-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+}
+
+#map{
+  display: flex;
+}
+
+.marker {
+  align-content: center;
+  width: 150px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.markerText {
+  text-align: center;
+}
+
+.markerTitle {
+  font-size: 14px;
+}
+
+#libImage {
+  width: 150px;
+  height: 150px;
+  /*padding-left: 20%;*/
+}
